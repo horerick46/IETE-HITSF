@@ -1,0 +1,168 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/test.css">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+        <!-- <link rel="stylesheet" type="text/css" href="css/animate.min.css"> -->
+        <!-- Font Awesome css -->
+    <!-- <link rel="stylesheet" href="css/fontawesome-all.min.css"> -->
+        <title>Project</title>
+    </head>
+    <body>
+        <!-- ------------------------create Navbar ------------------>
+
+        <div class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+            
+            
+
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand">I.E.T.E</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="events.html">EVENTS</a></li>
+                        <li><a href="article.html">ARTICLE</a></li>
+                        <li><a href="team.html">TEAM</a></li>
+                        <li><a href="alumini.html">OUR ALUMINI</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+<!-- -----------------------------end navbar--------------------------------- -->
+
+
+<div class="container1">
+  <h1>Photo/Gallery</h1>
+  <hr>
+    <div class="row">
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail img-responsive">
+          <a href="#" title="Image 1"><img src="gimage/16.jpg"> </a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail img-responsive">
+          <a href="#" title="Image 1"><img src="gimage/17.jpg"></a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6 ">
+        <div class="thumbnail">
+          <a href="#" title="Image 1"><img src="gimage/18.jpg"></a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail img-responsive">
+          <a href="#" title="Image 1"><img src="gimage/iete.jpg"></a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail img-responsive">
+          <a href="#" title="Image 1"><img src="gimage/20.jpg"></a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail img-responsive">
+          <a href="#" title="Image 1"><img src="gimage/2.jpg"></a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail img-responsive">
+          <a href="#" title="Image 1"><img src="gimage/a1.jpg"></a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail img-responsive">
+          <a href="#" title="Image 1"><img src="gimage/3.jpg"></a>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="thumbnail img-responsive">
+          <a href="#" title="Image 1"><img src="gimage/4.jpg"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="modal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal"><i class="fa fa-times"></i></button>
+        </div>
+        <div class="modal-body">
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- -------------------------------------------------------------------------------------------- -->
+
+
+<!-- -------------------------------------------------------------------------- -->
+
+
+
+<a class="gotopbtn" href="#"> <i class="fa fa-arrow-up"></i> </a> 
+
+<div class="footer">
+    <div class="info">
+        <div class="social-links">
+          <a href="" class="facebook" target="_blank"><i class="fa fa-facebook"></i></a> | 
+          <a href="" class="google-plus" target="_blank"><i class="fa fa-envelope"></i></a> |
+          <a href="" class="linkedin" target="_blank"><i class="fa fa-linkedin"></i></a> | 
+          <a href="" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+        </div>
+    </div>
+
+    <p class="right wow fadeInUp" >Copyright ©2020 All rights reserved</p>
+</div> 
+
+
+
+
+
+
+
+<!-- --------------------------------------------------------------------------------- -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.js"
+integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
+<script src="js/wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+
+<script>
+  $('.thumbnail').click(function(){
+	$('.modal-body').empty();
+	$($(this).parents('div').html()).appendTo('.modal-body');
+	$('#modal').modal({show:true});
+});
+
+$('#modal').on('show.bs.modal', function () {
+   $('.col-6,.row .thumbnail').addClass('blur');
+})
+
+$('#modal').on('hide.bs.modal', function () {
+   $('.col-6,.row .thumbnail').removeClass('blur');
+})
+</script>
+
+
+</body>
+</html>

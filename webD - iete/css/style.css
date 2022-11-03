@@ -1,0 +1,718 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Recursive:wght@300&family=Work+Sans&display=swap');
+
+h1{
+    font-family: 'Fondamento', cursive; 
+    text-transform: uppercase;
+    font-weight: 700;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+    overflow-x: hidden;
+    margin: 0px;
+}
+.boton-menu{
+  display: contents;
+  }
+.btn:hover{
+    background-color:#fd7e14 !important;
+    color: black !important;
+    border: 1px solid #fff !important;
+}
+.caret.caret-up {
+  border-top-width: 0;
+  border-bottom: 4px solid #fff;
+}
+/* ----------------------------- */
+/* NAVBAR STYLE */
+.navbar a:hover{
+    border-bottom: solid 3px #fd7e14;
+}
+.navbar-brand{
+    background-color: none;
+    position: space;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+.navbar-collapse{
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 600;
+    /* font-family: 'Fondamento', cursive; */
+    /* font-size: 14px; */
+}
+/* header style */
+.header{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,
+     url(../images/backgroundimg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+/* linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) */
+.header h1{
+    color: #fff;
+    text-align: center;
+    font-size: 55px;
+    margin-top: 250px;
+}
+.header strong{
+    color: rgb(211, 229, 182);
+    font-family: 'Fondamento', cursive; 
+}
+
+
+@media only screen and (max-width:600px){
+    .header{
+        background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),
+        url(../images/backgroundimg.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        background-attachment: fixed;
+        
+    }
+    .header h1{
+        color: rgb(247, 245, 245);
+        text-align: center;
+        font-size: 45px;
+        margin-top: 180px;
+    }
+    .navbar-brand{
+      width: 200px;
+        font-weight: 600;
+
+    }
+}
+
+
+.header h3{
+    text-align: center;
+    color: #fff;
+}
+.flex-container{
+    display: flex !important;
+    border: 1px solid transparent !important;
+    height: 100px;
+    justify-content: center;
+}
+.flex{
+    text-align: center;
+    align-self: center;
+    color: black;
+    border-radius: 30px;
+    border: 0;
+    background-color: yellowgreen;
+}
+/* ---------------------------- */
+/* ---------------------about css---------- */
+.about{
+    padding-top: 30px;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 18px;
+    text-decoration-color: #eee;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,
+     url(../gallery/Capture.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    text-align: center;
+ }
+.abt{
+  text-align: left;
+  color: #f9f9f9;
+    }
+  .abt1{
+    color: #eee;
+    text-align: justify;
+  }
+.About .Abouttext p{
+    margin-top: 500px;
+    font-size: 25px;
+    text-align: justify;
+    line-height: 90px;
+}
+.about .AboutImage img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.about .AboutImage img:hover {
+  transform: initial;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: 10px;
+}
+@media only screen and (max-width:600px){
+    .about .AboutImage img{
+        width: 300px;
+        height: 300px;
+        text-align: center;
+    }
+}
+
+/* ---------------------------about css end------------ */
+
+
+/* ------------------------css ex body------------- */
+.team{
+    padding: 50px 0px 20px;
+    text-align: center;
+    background-color: #f9f9f9 ;
+}
+.team h2,h4,strong{
+    margin: 10px 0px 0px;
+    color: #eaefeb;
+    font-family: 'Fondamento', cursive;
+}
+.team {
+    padding-top: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,
+    url(../gallery/Capturebg.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.team h4{
+    margin: 20px 0px 0px;
+    font-weight: 600;
+    color: #eaefeb;
+}
+.team h3{
+    margin: 20px 0px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Baloo Da 2', cursive;
+    color: white;
+}
+.team strong{
+    font-weight: 600;
+}
+.team p{
+    color: #9eea7e;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 20px;
+    font-weight: 600;
+}
+.team img{
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+}
+.team img:hover {
+  transform: initial;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 5px;
+  padding: 10px;
+}
+
+/* ------------------------------------------------- */
+.workl{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,
+    url(../gallery/bgm1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+section {
+    padding: 60px 0;
+    min-height: 100vh;
+}
+.section-title {
+text-align: center;
+max-width: 720px;
+margin-bottom: 70px;
+margin-top: -6px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.section-title h2 {
+  color: #eaefeb;
+font-size: 35px;
+font-weight: 700;
+margin-bottom: 0;
+font-family: 'Fondamento', cursive;
+}
+
+.section-title p {
+max-width: 650px;
+margin: 0 auto;
+font-family: 'Baloo Da 2', cursive;
+font-weight: 700;
+font-size: 20px;
+}
+
+.section-title .bar {
+height: 4px;
+width: 85px;
+background: #d83f87;
+margin: 20px auto 25px;
+position: relative;
+border-radius: 5px;
+overflow: hidden;
+}
+
+.section-title .bar::before {
+content: '';
+position: absolute;
+left: 0;
+top: 0;
+height: 100%;
+width: 5px;
+background: white;
+-webkit-animation-duration: 2s;
+  animation-duration: 2s;
+-webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+-webkit-animation-name: MOVE-BG;
+  animation-name: MOVE-BG;
+}
+
+@-webkit-keyframes MOVE-BG {
+from {
+-webkit-transform: translateX(0);
+}
+to {
+-webkit-transform: translateX(85px);
+}
+}
+
+@keyframes MOVE-BG {
+from {
+-webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+to {
+-webkit-transform: translateX(85px);
+    transform: translateX(85px);
+}
+}
+.workl1{
+  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) ,
+    url(../images/hand.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.pricing-area p{
+  color: rgb(232, 237, 225);
+  font-family: 'Baloo Da 2', cursive;
+  font-size: 20px;
+  font-weight: 600;
+}
+.pricing-table-box {
+padding-bottom: 30px;
+background: rgb(129, 130, 127);
+text-align: center;
+z-index: 1;
+position: relative;
+border-radius: 5px;
+background-position: center center;
+overflow: hidden;
+-webkit-box-shadow: 7px 5px 30px 0 rgba(11, 15, 245, 0.15);
+  box-shadow: 7px 5px 30px 0 rgba(9, 13, 239, 0.15);
+-webkit-transition: .4s;
+transition: .4s;
+cursor: pointer;
+}
+.pricing-table-box:after {
+content: "";
+position: absolute;
+width: 100%;
+top: 0;
+background-image: url(https://i.ibb.co/kq1jLKz/background-dassed.png);
+opacity: 0.5;
+height: 100%;
+background-size: contain;
+background-repeat: repeat;
+}
+.pricing-table-box .pricingTable-header {
+padding: 30px 15px 45px;
+background:  #343433;
+-webkit-clip-path: polygon(50% 100%, 100% 60%, 100% 0, 0 0, 0 60%);
+  clip-path: polygon(50% 100%, 100% 60%, 100% 0, 0 0, 0 60%);
+position: relative;
+font-family: 'Fondamento', cursive;
+}
+
+.pricing-table-box .pricingTable-header::before {
+content: "";
+width: 400px;
+height: 400px;
+border-radius: 50%;
+position: absolute;
+right: -50%;
+top: -130%;
+background: repeating-radial-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.2) 20%);
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+.pricing-table-box .title {
+font-size: 23px;
+font-weight: 700;
+color: #ffffff;
+text-transform: uppercase;
+margin-bottom: 15px;
+}
+
+.pricing-table-box .price-value {
+display: block;
+font-size: 45px;
+font-weight: 700;
+color: #ffffff;
+margin-bottom: 30px;
+}
+
+.pricing-table-box .price-value span {
+font-size: 15px;
+text-transform: uppercase;
+margin-left: -10px;
+}
+
+.pricing-table-box .price-value sup {
+font-size: 23px;
+top: -25px;
+}
+
+.pricing-table-box .pricing-content {
+padding: 30px 25px;
+margin-bottom: 0;
+list-style-type: none;
+font-family: 'Baloo Da 2', cursive;
+font-weight: 600;
+}
+
+.pricing-table-box .pricing-content li {
+color: #f7f7f7;
+text-transform: capitalize;
+border-bottom: 1px solid #eee;
+margin-bottom: 12px;
+padding-bottom: 12px;
+}
+
+.pricing-table-box .pricing-content li:last-child {
+border-bottom: none;
+padding-bottom: 0;
+margin-bottom: 0;
+}
+
+.pricing-table-box:hover {
+-webkit-transform: translateY(-10px);
+  transform: translateY(-10px);
+}
+
+.pricing-table-box:hover .pricingTable-header::before {
+right: 50%;
+}
+
+.pricing-content i{
+    margin: 10px 0px 0px;
+    color: rgb(35, 35, 34);
+    margin-right: 5px;
+}
+/* -----------------footer---------------- */
+.footer{
+    padding: 10px;
+    color: white;
+    background-color: #2E363F;
+}
+.footer h4{
+    color: #fff;
+}
+.footer i{
+    margin: 10px 0px 0px;
+    color: coral;
+    margin-right: 5px;
+}
+.footer .social{
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding: 2px;
+    /* margin-bottom: 15px; */
+    margin-right: 5px;
+    color: #fff;
+}
+.footer .social:hover{
+    color: coral;
+    cursor: pointer;
+}
+.footer .right{
+    text-align: center;
+}
+.footer p{
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 18px;
+}
+.footer .right{
+    font-family: 'Baloo Da 2', cursive;
+}
+/* ------------------top btn------------- */
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+/* .gotopbtn{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background: #27ae60;
+    bottom: 40px;
+    right: 50px;
+  
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+  }
+   */
+
+
+
+
+
+
+/* ------------------------------------------------------------------- 
+ * responsive:
+ * services
+ * ------------------------------------------------------------------- */
+
+ .subhead{
+     text-align: center;
+     color: white;
+ }
+ .display-1{
+     text-align: center;
+     color: rgb(243, 235, 243);
+ }
+ .col-full{
+    padding-top: 30px;
+    font-family: 'Baloo Da 2', cursive;
+    font-size: 28px;
+    text-align: justify;
+ }
+ /* .lead{
+    margin-top: 50px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 10px;
+ } */
+ .chodi{
+     line-height: 60px;
+     font-size: 25px;
+     color: #eee;
+     background-color: none ;
+ }
+ @media only screen and (max-width: 1200px) {
+    .s-services {
+      padding-top: 15rem;
+      padding-bottom: 15rem;
+    }
+  
+    .services-list [class*="col-"]:nth-child(2n + 1) {
+      padding-right: 30px;
+    }
+    .services-list [class*="col-"]:nth-child(2n + 2) {
+      padding-left: 30px;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .s-services {
+      padding-top: 12rem;
+      padding-bottom: 12rem;
+    }
+  
+    .services-list {
+      margin-top: 3rem;
+    }
+    .services-list .service-icon {
+      font-size: 4.5rem;
+    }
+    .services-list [class*="col-"]:nth-child(n) {
+      padding: 0 15px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .services-list [class*="col-"]:nth-child(n) {
+      padding: 0 10px;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .s-services {
+      padding-top: 9.6rem;
+    }
+  
+    .services-list [class*="col-"]:nth-child(n) {
+      padding: 0;
+    }
+  }
+  @media only screen and (max-width:600px){
+    .chodi{
+        line-height: 65px;
+        font-size: 16px;
+        text-align: left;
+    }
+  }
+
+  .col-full .bar {
+    height: 4px;
+    width: 85px;
+    background: #d83f87;
+    margin: 20px auto 25px;
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+    }
+    
+    .col-full .bar::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    background: #ffffff;
+    -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+    -webkit-animation-timing-function: linear;
+      animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+    -webkit-animation-name: MOVE-BG;
+      animation-name: MOVE-BG;
+    }
+    /* ------------------------------------------------------------ */
+
+
+
+    .events .bar {
+      height: 4px;
+      width: 85px;
+      background: #d83f87;
+      margin: 20px auto 25px;
+      position: relative;
+      border-radius: 5px;
+      overflow: hidden;
+      }
+      
+      .events .bar::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 5px;
+      background: #ffffff;
+      -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+      -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+      -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+      -webkit-animation-name: MOVE-BG;
+        animation-name: MOVE-BG;
+      }
+    .events{
+      font-family: roboto; 
+    -webkit-font-smoothing:
+     antialiased; margin: 0;
+    }
+    .events .evhead{
+      margin: 10px 0px 0px;
+      text-align: center;
+      font-family: 'Fondamento', cursive;
+  } 
+  .events .evhead1{
+    margin: 10px 0px 0px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    font-family:'Baloo Da 2', cursive ;
+}
+       .flex1 { 
+        display: -webkit-flex; 
+        display: flex; 
+        -webkit-flex-direction: row;  
+        flex-direction: row; 
+        -webkit-justify-content: flex-start; 
+        justify-content: flex-start;
+      }
+      
+      .slider-wrapper div {
+        position: relative;
+      }
+      .slider-wrapper {
+        margin-top: 5vw;  
+      }
+      .slide-image {
+        height: 18vw;
+    
+      }
+      .slide-image img {
+        width: 24vw; cursor: pointer;
+      }
+      .slide-content {
+      width: 25vw; color: black;padding:1vw 3vw 1vw ;font-family:'Baloo Da 2', cursive ; font-size: 20px;
+      }
+      .slide-date {
+        color: #0a8acb; font-size: 1.1vw; font-weight: 400; letter-spacing: 0.1vw; padding-bottom: 1.4vw;
+      }
+      .slide-title {
+        font-size: 1.2vw; font-weight: 400; letter-spacing: 0.1vw; line-height: 1.55vw; padding-bottom: 1.8vw;
+      }
+      .slide-text {
+        font-size: 0.80vw; line-height: 1.2vw; opacity: 0.8; padding-bottom: 4vw;
+      }
+      .slide-more {
+        font-weight: 400; letter-spacing: 0.1vw; float: left; font-size: 0.9vw;
+      }
+      .slide-bullet {
+        width: 0.5vw; height: 0.5vw; background-color: #0b8bcc; border-radius: 200%; position: relative; margin-left: 1.2vw;
+      }
+      .slide-nav {
+        margin-left: 64vw; margin-top: -5.5vw;
+      }
+      
+      div.overlay-blue {
+        width: 100%; height: 100%; position: absolute; top: 0; transition: 0.5s ease all;
+      }
+      div.overlay-blue:hover {
+        background-color: rgba(13, 27, 43, 0.5);
+      }
+      
+      .arrows{
+        width: 3.5vw; margin-top: -1.8vw; margin-left: 72vw; position: relative;
+      }
+      .arrow {
+        display: inline-block; position: absolute; width: 1.2vw; height: 1.2vw; background: transparent; text-indent: -9999px; border-top: 0.15vw solid #0A8ACB; border-left: 0.15vw solid #0A8ACB; transition: all .1s ease-in-out; text-decoration: none; color: transparent;
+      }
+      .arrow:hover {
+        border-color: greenyellow; border-width: 0.25vw;
+      }
+      .arrow:before {
+        display: block; height: 200%; width: 200%; margin-left: -50%; margin-top: -50%; content: ""; transform: rotate(45deg);
+      }
+      .arrow.prev {
+        transform: rotate(-45deg); left: 0;
+      }
+      .arrow.next {
+        transform: rotate(135deg); right: 0;
+      }
